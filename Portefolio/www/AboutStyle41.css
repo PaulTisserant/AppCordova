@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "test";
+    src: url("ressources/HelveticaNeue-Medium.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "test", serif;
+}
+
+
+body{
+    background-color: #111114;
+    height:100%;
+    width:100%;
+}
+
+nav{
+    background-color: #0E0E10;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    padding-left: 50px;
+    padding-top: 40px;
+    
+}
+
+
+.ul1 {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.li1{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.a1{
+    display: block;
+    color: #DCDBD7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.li1:hover{
+    border-bottom: #DCDBD7 solid 2px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+svg
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.wrapper .button{
+    height: 60px;
+    width: 60px;
+    float: right;
+    padding-top: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.1s ease-in;
+    color: white;
+    z-index: 3;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    color: #E1306C;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    color: #ff0000;
+}
+
+.wrapper .button:nth-child(1){
+    padding-right: 20px;
+}
+
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+
+//.a2{
+    display: block;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    padding-bottom: 3px;
+    position:absolute;
+    top: 65%;
+    left: 45%;
+    text-shadow:6px 4px 0px #5400e4;
+    font-weight:bold;
+}
+
+.ul2 {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.li2{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.li2:nth-child(2){
+    border-bottom: #DCDBD7 solid 4px;
+}
+
+.li2:hover{
+    border-bottom: #DCDBD7 solid 4px;
+}
+
+
+#preloader{
+    background: #0E0E10 url("ressources/FINAL-CUBE-ALPHA-GIF-50prc.gif") no-repeat center ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+#section2 {
+    background-color: #111114;
+    overflow: hidden;
+}
+
+#section2 .container{
+    display: flex;
+    float: left;
+    position: absolute;
+    text-align: center;
+    top: 28%;
+    left: 16%;
+    right: 16%;
+}
+
+
+#section2 .container img{
+    height: 400px;
+    width: 400px;
+}
+
+#section2 .container p {
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+}
+#section2 .container2{
+    display: flex;
+    float: left;
+    position: absolute;
+    text-align: center;
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+    left: 40%;
+    top: 53%;
+}
+
+#section2 .container2 .rockrider{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    height: 4.5vh;
+    width: 31vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: -30vh;
+    top: 14.4vh;
+}
+#section2 .container2 .seiko{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 10.6vh;
+    left: 1vh;
+    height: 3.2vh;
+    width: 16vh;
+}
+#section2 .container2 .ekoi{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 15.2vh;
+    left: 13vh;
+    height: 4.7vh;
+    width: 16vh;
+}
+#section2 .container2 .wasabi{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 2.5vh;
+    left: 32vh;
+    right: 14%;
+    height: 4vh;
+    width: 32vh;
+}
+#section2 .container2 .scott{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 6vh;
+    left: -12vh;
+    height: 6vh;
+    width: 18vh;
+}
+
+#section2 .container2 p {
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+}
+
+.sousNav{
+    position: absolute;
+    top:50%;
+    left:50%;
+}
+
+@media all and (max-width : 600px) {
+    svg{
+        width:120px;
+        height:120px;
+    }
+    ul{
+        padding-left: 0px;
+        padding-top: 30px;
+        position: absolute;
+        left: 3%;
+    }
+    .ul1{
+        padding-left: 0px;
+        padding-top:32px;
+        position: absolute;
+        left: 141px;
+    }
+    #section2{
+        top:35%;
+    }
+    .col-size{
+        display:none;
+    }
+    h1 {
+    font-size: 2rem;
+    height: 34px;
+    margin-top: 0%;
+    margin-left: 2.5%;
+    }
+    h2 {
+    font-size: 0.9rem;
+
+    height: 9px;
+    margin-left: 2.5%;
+    }
+    h3 {
+    font-size: 0.6rem;
+    height: 12px;
+    margin-left: 2.5%;
+    }
+    .content{
+    height: 224px;
+    }
+    #section3{
+        display:none;
+    }
+    section {
+    min-height: 120vh;
+    }
+    .wrapper2{
+        display:none;
+    }
+    #section2 .container{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 21vh;
+    left: 6vh;
+    margin-right: 11vh;
+    }
+    #section2 .container p {
+    font-size: 1em;
+    }
+    #section2 .container2 .rockrider{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    height: 4.5vh;
+    width: 31vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: -0.7vh;
+    top: 14.4vh;
+}
+#section2 .container2 .seiko{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 22.6vh;
+    left: 1vh;
+    height: 3.2vh;
+    width: 16vh;
+}
+#section2 .container2 .scott{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 16vh;
+    left: 0vh;
+    height: 6vh;
+    width: 18vh;
+}
+#section2 .container2 .ekoi{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 12.7vh;
+    left: 0vh;
+    height: 4.7vh;
+    width: 16vh;
+}
+#section2 .container2 .wasabi{
+    display: flex;
+    float: left;
+    position: relative;
+    text-align: center;
+    top: 27.5vh;
+    left: 0vh;
+    right: 14%;
+    height: 4vh;
+    width: 32vh;
+}
+    .a2{
+        display:none;
+    }
+    .wrapper{
+        display:none;
+    }
+    #section2 .container2{
+    display: flex;
+    float: left;
+    position: absolute;
+    text-align: center;
+    height: 20%;
+    flex-direction: column;
+    align-items: center;
+    left: 16%;
+    top: 56%;
+}
+    
+         
+
+}
+
+    
+

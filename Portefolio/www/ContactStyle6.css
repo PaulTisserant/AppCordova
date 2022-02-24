@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "test";
+    src: url("ressources/HelveticaNeue-Medium.otf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "test", serif;
+}
+
+
+body{
+    background-color: #111114;
+}
+
+nav{
+    background-color: #0E0E10;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    float: left;;
+    padding-left: 50px;
+    padding-top: 40px;
+
+
+}
+
+li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+a{
+    display: block;
+    color: #DCDBD7;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+li:hover{
+    border-bottom: #DCDBD7 solid 2px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+svg
+{
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+
+#contactbox{
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+
+form::placeholder{
+    color: #B2ABA3 ;
+}
+
+textarea{
+    height: 200px;
+    resize: vertical;
+}
+
+.submit{
+    width: 20%;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #111114;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.submit:hover{
+    transition: all 0.3s ease;
+    background-color: white;
+    color: #0E0E10;
+}
+
+input , textarea{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    outline: none;
+    transition: all 0.1s;
+}
+
+
+.wrapper .button{
+    height: 60px;
+    width: 60px;
+    float: right;
+    padding-top: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.1s ease-in;
+    color: white;
+    z-index: 3;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    color: #E1306C;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    color: #ff0000;
+}
+
+.wrapper .button:nth-child(1){
+    padding-right: 20px;
+}
+
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+
+#preloader{
+    background: #0E0E10 url("ressources/FINAL-CUBE-ALPHA-GIF-50prc.gif") no-repeat center ;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+@media all and (max-width : 600px) {
+    svg{
+        width:120px;
+        height:120px;
+    }
+    ul{
+        padding-left: 0px;
+        padding-top: 30px;
+        position: absolute;
+        left: 34%;
+    }
+    .ul1{
+        padding-left: 0px;
+        padding-top:32px;
+        position: absolute;
+        left: 141px;
+    }
+    #section2{
+        top:35%;
+    }
+    .col-size{
+        display:none;
+    }
+    h1 {
+    font-size: 2rem;
+    height: 34px;
+    margin-top: 0%;
+    margin-left: 2.5%;
+    }
+    h2 {
+    font-size: 0.9rem;
+
+    height: 9px;
+    margin-left: 2.5%;
+    }
+    h3 {
+    font-size: 0.6rem;
+    height: 12px;
+    margin-left: 2.5%;
+    }
+    .content{
+    height: 224px;
+    }
+    #section3{
+        display:none;
+    }
+    section {
+    min-height: 762vh;
+    }
+    .wrapper2{
+        display:none;
+    }
+    .videoContainer{
+    top: 76%;
+    left: 50%;
+    width: 99%;
+    height: 83%;
+    }
+    .videoContainer .video{
+    height: 14rem;
+    }
+    #contactbox{
+    width: 80%;
+    top: 56%;
+    left: 45%;
+    }
+    .submit{
+    width: 33%;
+    }
+    .button{
+    display:none
+    }
+
+}
+
