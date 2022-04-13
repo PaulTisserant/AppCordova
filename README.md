@@ -1,6 +1,6 @@
 # PortFolio Cordova
 
-The mobile application version of the paulfisson.com portfolio :
+The mobile application version of the https://paulfisson.com portfolio :
 
 ## To generate the mobile app simply download cordova :
 
